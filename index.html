@@ -1,0 +1,79 @@
+<!-- Contents of my-info.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    
+        header {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    
+        main {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    
+        li {
+            width: calc(50% - 5px); /* 2개씩 표시, 간격은 5px */
+            margin-bottom: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+
+    <header>
+        <h2>내 정보</h2>
+    </header>
+
+    <main>
+        <ul>
+            <li><a href="#">이름: [XXX]</a></li>
+            <li><a href="#">생년월일: [2003.XX.XX]</a></li>
+            <li><a href="#">이메일: [abcd1234@ptu.ac.kr]</a></li>
+            <li><a href="#">전화번호: [010-1234-5678]</a></li>
+        </ul>
+    </main>
+
+
+</body>
+</html>
